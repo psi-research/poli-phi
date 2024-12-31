@@ -1,0 +1,24 @@
+Collecting causal-conv1d
+  Downloading causal_conv1d-1.2.0.post2.tar.gz (7.1 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: torch in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from causal-conv1d) (2.1.2+cu118)
+Requirement already satisfied: packaging in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from causal-conv1d) (24.0)
+Requirement already satisfied: ninja in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from causal-conv1d) (1.11.1.1)
+Requirement already satisfied: filelock in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (3.13.1)
+Requirement already satisfied: typing-extensions in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (4.9.0)
+Requirement already satisfied: sympy in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (1.12)
+Requirement already satisfied: networkx in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (3.2.1)
+Requirement already satisfied: jinja2 in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (3.1.3)
+Requirement already satisfied: fsspec in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (2024.2.0)
+Requirement already satisfied: triton==2.1.0 in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from torch->causal-conv1d) (2.1.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from jinja2->torch->causal-conv1d) (2.1.5)
+Requirement already satisfied: mpmath>=0.19 in /home/knpu/anaconda3/envs/test/lib/python3.9/site-packages (from sympy->torch->causal-conv1d) (1.3.0)
+Building wheels for collected packages: causal-conv1d
+  Building wheel for causal-conv1d (setup.py): started
+  Building wheel for causal-conv1d (setup.py): finished with status 'done'
+  Created wheel for causal-conv1d: filename=causal_conv1d-1.2.0.post2-cp39-cp39-linux_x86_64.whl size=45150233 sha256=6f9c63f94826f3d2e8c6b922419a8d8669ba8f5ae51387d8b3ad4f5f14c28fd7
+  Stored in directory: /home/knpu/.cache/pip/wheels/b9/58/8f/c916a62a29dfcef07c5b43a7b48d195c426ad363b8bee05caf
+Successfully built causal-conv1d
+Installing collected packages: causal-conv1d
+Successfully installed causal-conv1d-1.2.0.post2
